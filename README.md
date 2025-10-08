@@ -14,5 +14,23 @@ Tutorial de como definir e criar funções em Javascript utilizando os formatos:
 ```
 function NomeDaFunção(arg1, arg2) {
 corpo da função
-}
+};
+```
+
+## Function Expression
+> Função que é atribuida a uma variável. Podendo ser anônima ou nomeada.
+- Não sofre hoisting
+```
+const NomeDaFunção = function(arg1, arg2) {
+corpo da função
+};
+```
+
+## Function Arrow
+> Forma mais resumida de escrever funções, introduzida no ES6.
+- Utiliza-se a sintaxe de "seta" (=>)
+```
+const NomeDaFunção = (arg1, arg2) => {
+corpo da função
+};
 ```
